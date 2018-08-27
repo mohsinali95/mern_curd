@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import "bootstrap/dist/css/bootstrap.css";
 import AppNavbar from './component/AppNavbar';
 import ShoppingList from './component/ShoppingList';
-import './App.css';
 import {Provider} from 'react-redux';
 import store from './store/Store';
 

@@ -4,11 +4,11 @@
   "description": "shopping list built with MERN stack",
   "main": "server.js",
   "scripts": {
-    "client-install":"npm install --prefix client",
+    "client-install": "npm install --prefix client",
     "start": "node server.js",
-    "server" : "nodemon server.js",
-    "client":"npm start --prefix client",
-    "dev":"concurrently \"npm run server\" \"npm run client\""
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Maaz",
   "license": "MIT",
@@ -16,7 +16,8 @@
     "body-parser": "^1.18.3",
     "concurrently": "^3.6.1",
     "express": "^4.16.3",
-    "mongoose": "^5.2.7"
+    "mongoose": "^5.2.7",
+    "update": "^0.7.4"
   },
   "devDependencies": {
     "nodemon": "^1.18.3"
